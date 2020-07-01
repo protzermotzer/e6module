@@ -102,7 +102,7 @@ class tags():
         self.all = self.artist + self.character + self.copyright + self.general + self.invalid + self.lore + self.meta + self.species
     
 def getposts(tags, limit=10):
-    headers = {"User-agent" : "MyProject/1.0 (By WibbleTime on e621)"}
+    headers = {"User-agent" : "MyProject/1.0 (NAME HERE)"}
     e621String = "https://e621.net/posts.json?tags={0}&limit={1}".format(tags, limit)    
     response = requests.get(e621String, headers = headers)
     response = response.json()
