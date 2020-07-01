@@ -1,8 +1,8 @@
 #e6module
-A python module to neaten up the e621 api process 
+A python module to neaten up the e621 'get image' api process 
 
 ## Warning
-*Be aware that e621.net only allows 2 requests per *
+*Be aware that e621.net only allows 2 requests per second and 230 max requests at a time*
 
 ## Required Modules
 - PIL
