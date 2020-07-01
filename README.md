@@ -3,6 +3,7 @@ A python module to neaten up the e621 'get image' api process
 
 ## Warning
 *Be aware that e621.net only allows 2 requests per second and 230 max requests at a time*
+Make sure to replace `NAME HERE` on line 105 with whatever your e621 account name may be.
 
 ## Required Modules
 - PIL
